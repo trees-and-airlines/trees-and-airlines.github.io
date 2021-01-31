@@ -1,0 +1,25 @@
+/*
+ * Feature
+ */
+.ax-feature .ax-l-i {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ax-feature figure {
+    overflow: hidden;
+    height: 32em;
+}
+
+@media (min-width:640px) {
+.ax-feature .ax-l-i {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*
+ * Header
+ */
+a.header-current {
+    color: #007bff;
+}
