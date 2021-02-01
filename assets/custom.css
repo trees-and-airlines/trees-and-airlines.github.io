@@ -8,7 +8,11 @@
 
 .ax-feature figure {
     overflow: hidden;
-    height: 32em;
+    height: 22em;
+}
+
+.ax-feature img {
+    margin-top: -11em;
 }
 
 @media (min-width:640px) {
