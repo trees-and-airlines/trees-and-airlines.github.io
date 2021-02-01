@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://trees-and-airlines.github.io/sitemap.xml

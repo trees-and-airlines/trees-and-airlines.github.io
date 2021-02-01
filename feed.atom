@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+  <title>trees-and-airlines</title>
+  <subtitle></subtitle>
+  <id>https://trees-and-airlines.github.io/</id>
+  <author>
+    <name>trees-and-airlines</name>
+    <uri>https://trees-and-airlines.github.io/</uri>
+  </author>
+  <updated>2021-02-01T02:09:36Z</updated>
+  <link rel="self" type="application/atom+xml" href="https://trees-and-airlines.github.io/feed.atom" hreflang="en-us"/>
+  <link rel="alternate" type="text/html" href="https://trees-and-airlines.github.io/" hreflang="en-us"/>
+  <entry>
+    <title>Deploying to GitHub</title>
+    <author>
+      <name>trees-and-airlines</name>
+      <uri></uri>
+    </author>
+    <id>https://trees-and-airlines.github.io/posts/github-deployment/</id>
+    <updated>2021-01-31T04:00:00Z</updated>
+    <published>2021-01-31T04:00:00Z</published>
+    <content type="html"><![CDATA[<p>This blog will need to eventually be hosted somewhere. There are many places that
+allow you to host a small blog for free. GitHub, Gitlab, and Netlify seem to be
+the go-to places, so I will begin by trying GitHub. I want to get the hang of
+the process involved in publishing a Hugo blog.</p>]]></content>
+  </entry>
+  <entry>
+    <title>You have to start somewhere</title>
+    <author>
+      <name>trees-and-airlines</name>
+      <uri></uri>
+    </author>
+    <id>https://trees-and-airlines.github.io/posts/hello/</id>
+    <updated>2021-01-30T02:00:00Z</updated>
+    <published>2021-01-30T02:00:00Z</published>
+    <content type="html"><![CDATA[<div class="flex items-center justify-center font-content-sans rounded bg-blue-100 px-4 py-4" role="alert">
+  <span class="text-xs font-bold uppercase leading-none rounded-full text-blue-100 bg-blue-500 px-2 py-1 mr-3">Hey there!</span>
+  <span class="font-semibold text-blue-700">This is a test post and probably will not be published</span>
+</div>
+
+<p>Looking at various Hugo <a href="https://themes.gohugo.io/" target="_blank" title="Hugo Themes" >Hugo Themes</a>
+.
+I decided to go with one named <a href="https://themes.gohugo.io/axiom/" target="_blank" title="Axiom" >Axiom</a>
+.
+It looks simple, it's configurable, and seems to load fast. It reminds me a bit
+of Medium. Good enough. Time to configure it.</p>
+<h3 id="sometimes-its-usefult-to-quote-things">Sometimes it's usefult to quote things.</h3>
+
+<blockquote>
+  <p>You can trade hours for dollars or ideas for millions.</p>
+  <footer>&#8212; Cactus Jack on <cite title="The Shark Tank"><a rel="noopener nofollow" href="https://www.example.com/">The Shark Tank</a></cite></footer>
+</blockquote>
+
+<h3 id="there-are-also-shortcodes-for-buttons-with-icons">There are also shortcodes for buttons with icons.</h3>
+<blockquote>
+<p>Note: The <code>icon</code> parameter value must match one of the filenames at
+<code>/layouts/partials/svg/</code>. You can add more files by creating the same directory
+structure in project root. Be sure to add the same markup to the opening <code>&lt;svg&gt;</code>
+tag in each file.</p>
+</blockquote>
+
+
+<a class="inline-flex items-center rounded font-content-sans font-semibold text-blue-700 bg-blue-100 hover:bg-blue-200 py-2 px-4" href="/pdf/file.pdf" role="button">
+  <svg class="fill-current h-4 w-auto mr-2" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M23.9 14.586c-.162-.357-.518-.587-.9-.586h-4V1a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v13H9a1 1 0 0 0-.91.586c-.164.358-.1.776.158 1.072l7 8c.2.218.464.342.752.342s.562-.126.752-.342l7-8c.26-.294.32-.714.158-1.072zM27 22v6H5v-6H1v8a2 2 0 0 0 2 2h26a2 2 0 0 0 2-2v-8h-4z"/></svg>
+
+  <span>Click me to download</span>
+</a>
+
+<h3 id="and-emojis-are-included-as-well-">And emojis are included as well 👍</h3>
+<p>Emojis are easy to add and are fully supported.
+You can even use emoji shortcodes like <code>:emoji_name:</code> to place a 🍺 on the page.
+Just have to make sure that <code>enableEmoji = true</code> is set in <code>config.toml</code></p>
+<h3 id="how-about-a-little-bit-of-code">How about a little bit of code:</h3>
+<h4 id="bash">Bash:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
+</span><span class="cp"></span>
+<span class="nb">echo</span> <span class="s2">&#34;Hello World!&#34;</span>
+</code></pre></div><h4 id="python">Python:</h4>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!/usr/bin/env python3</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</code></pre></div><h1 id="embedding-youtube-videos">Embedding YouTube videos</h1>
+<p>Similar to tweets Hugo provides a shortcode for YouTube as well.
+Videos can be embedded using <code>youtube</code>.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/L_LUpnjgPso" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>]]></content>
+  </entry>
+</feed>
